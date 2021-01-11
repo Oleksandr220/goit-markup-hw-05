@@ -793,7 +793,8 @@ a {
   transition: transform 250ms var(--trans-duration);
 }
 
-.project-link:hover .bg-overlay {
+.project-link:hover .bg-overlay,
+.project-link:focus .bg-overlay {
   transform: translateY(0%);
 }
 
